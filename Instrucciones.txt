@@ -1,0 +1,26 @@
+Un tipo de juegos muy conocido son los 
+relacionados con laberintos cuyo objetivo 
+es salir del laberinto (llegar a la 
+casilla de salida) antes de que nos alcance
+ uno de los perseguidores.
+
+Descripción del juego:
+
+El jugador mueve una casilla por turno, 
+en horizontal o vertical (no está permitido 
+mover en diagonal). Los perseguidores 
+mueven 2 casillas por turno, automáticamente 
+después de mover el jugador.
+Casillas-trampa: En el laberinto hay casillas
+-trampa. Si el jugador cae en una trampa muere 
+y termina la partida. Si cae un perseguidor,
+espera 3 turnos sin mover.
+
+Muros: Algunas casillas tienen muros. Pueden
+ estar arriba, abajo, a la izquierda, o a la 
+derecha de la casilla y puede haber varios 
+muros en una misma casilla. Hay muros alrededor 
+de todo el laberinto (en las casillas de los 
+extremos, en la orientación correspondiente). 
+Los personajes no pueden moverse a través de 
+los muros.
